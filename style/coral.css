@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  width: 80vw;
+  margin: auto;
+}
+.grid{
+    display: grid;
+    grid-template: 250px 250px / 2fr 1fr 1fr;
+    gap: 2rem;
+}
+.hover{
+    width: 30px;
+    height: 470px;
+    background: red;
+}
+.hover:hover .h{
+    position: absolute;
+    width: 45%;
+    height: 50px;
+    background: #000;
+}

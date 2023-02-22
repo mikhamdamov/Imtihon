@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/BurgerTime.css" />
+    <title>Burger Time</title>
+  </head>
+  <body>
+    <div
+      class="burger"
+      style="
+        flex-direction: column-reverse;
+        margin-top: 200px;
+        margin-left: 200px;
+      "
+    >
+      <img src="/BurgerTime/top-bread.png" class="d-block" alt="" />
+      <img
+        src="/BurgerTime/bottom-bread.png"
+        class="d-block"
+        style="margin-top: 0"
+        alt=""
+      />
+    </div>
+
+    <div style="top: 50px" class="mt-5 me-5 position-absolute end-0">
+      <p>Cheese - 2$</p>
+      <p>Meat - 5$</p>
+      <p>Onion - 1$</p>
+      <p>Salad - 1$</p>
+      <p>Tomato - 2$</p>
+      <p>Pickle - 3$</p>
+      <p>Berades - 2$</p>
+
+      <div class="flex">
+        <button class="btn btn-outline-warning Cheese">Cheese</button>
+        <button class="btn btn-outline-primary Meat">Meat</button>
+        <button class="btn btn-outline-secondary Onion">Onion</button>
+        <button class="btn btn-outline-success Salad">Salad</button>
+        <button class="btn btn-outline-danger Tomato">Tomato</button>
+        <button class="btn btn-outline-dark Pickle">Pickle</button>
+      </div>
+      <hr />
+      <h1 class="d-inline-block">Total $</h1>
+      <h1 class="d-inline-block total">2</h1>
+      <a href=""
+        ><button class="btn btn-outline-warning ms-5">Reflesh</button></a
+      >
+      <button class="btn btn-outline-warning ms-2 Buy">Buy</button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/BurgerTime.js"></script>
+  </body>
+</html>
