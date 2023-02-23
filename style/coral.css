@@ -20,17 +20,55 @@ ul {
 }
 .grid{
     display: grid;
-    grid-template: 250px 250px / 2fr 1fr 1fr;
-    gap: 2rem;
+    grid-template: 250px 250px/2fr 1fr 1fr;
+    gap: 0.5rem;
 }
-.hover{
-    width: 30px;
-    height: 470px;
-    background: red;
+.la img{
+  width: 576px;
+  height: 407px;
 }
-.hover:hover .h{
-    position: absolute;
-    width: 45%;
-    height: 50px;
-    background: #000;
+.ma  img , .ja {
+  width: 268px;
+  height: 210px;
+}
+.zaa{
+  height: 210px;
+}
+.ap{
+  display: none;
+}
+.la:hover .ap{
+  display: flex;
+}
+.apa{
+  display: none;
+}
+.sa:hover .apa{
+  display: flex;
+}
+.a{
+  display: none;
+}
+.m{
+  display: none;
+}
+.da:hover .a{
+  display: flex;
+  position: absolute;
+  margin-top: -40px;
+}
+.p{
+  display: none;
+}
+.ga:hover .p{
+  display: flex;
+}
+.ma{
+  position: relative;
+  display: none;
+}
+.ma:hover .m{
+  position: absolute;
+  margin-top: -40px;
+  display: flex;
 }
